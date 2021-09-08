@@ -5,7 +5,7 @@ function setup() {
   createCanvas(400, 400);
 }
 
-let x = 10;
+let x = 0;
 
 function draw() {
   background(0);
