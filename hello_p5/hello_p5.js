@@ -3,12 +3,13 @@
 
 function setup() {
   createCanvas(400, 400);
+    background(0);
 }
 
 let x = 0;
 
 function draw() {
-  background(0);
+
   if(x>=10)
   {
   //  background(0);
