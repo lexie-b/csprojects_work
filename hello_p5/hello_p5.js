@@ -11,7 +11,7 @@ function draw() {
   background(0);
   if(x>=10)
   {
-    background(0);
+  //  background(0);
     text("hi");
   }
 
