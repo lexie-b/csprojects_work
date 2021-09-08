@@ -16,3 +16,9 @@ function draw() {
   if (x > width+50)
     x = -50;
 }
+
+function mousePressed()
+{
+  fill(random(256), random(256), random(256));
+  ellipse(mouseX, mouseY, 20, 20);
+}
