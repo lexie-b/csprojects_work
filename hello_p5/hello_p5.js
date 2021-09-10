@@ -6,15 +6,29 @@ function setup() {
     background(0);
 }
 
-let x = 0;
+let bx = 200;
+let v = 4;
+let by = 0;
+let x = random(0, width);
+let y = random(0,height);
+
 
 function draw() {
 
-  if(x>=10)
+
+  rect(x, y, 60, 17);
+
+  ellipse(bx, by, 20, 20);
+
+  if(by+20<y&&by-20>y)
   {
-  //  background(0);
-    text("hi");
+    v*-1;
   }
+  if (x > width+50)
+  {
+    x = -50;
+  }
+
 
   /*
   fill(255, 0, 0);
