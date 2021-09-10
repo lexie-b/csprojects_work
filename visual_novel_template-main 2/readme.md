@@ -34,7 +34,7 @@ After you have made edits, be sure to:
 
 ## Links
 
-[Live site](https://dkessner.github.io/visual_novel_template/)  
+[Live site](https://lexie-b.github.io/csprojects_work/visual_novel_template-main%202/)  
 
 [Monogatari](https://monogatari.io/) visual novel engine  
 
